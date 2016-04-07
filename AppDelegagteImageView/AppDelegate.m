@@ -42,4 +42,15 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(NSString *)getValue
+{
+    return self.imgValue;
+}
+
+
+-(void)setImgValueString:(NSString *)someValue
+{
+    self.imgValue=someValue;
+}
+
 @end
